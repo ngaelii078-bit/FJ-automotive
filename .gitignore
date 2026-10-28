@@ -1,0 +1,18 @@
+# Local workspace settings, browser profiles, QA captures and hosting state
+.openai/
+.vscode/
+.codex/
+.agents/
+
+# Credentials and machine-local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Generated dependencies and OS files
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
